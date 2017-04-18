@@ -51,7 +51,3 @@ def primeTest(p):
                 return False
     return True
 
-f = open("makePrime", "w")
-for i in range(10000):
-    if primeTest(i):
-        f.write(str(i) + "\n")
